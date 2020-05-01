@@ -1,0 +1,192 @@
+/* === Typography === */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12pt;
+    line-height: 14pt;
+    color: #000000;
+}
+
+
+nav a {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    color: #000000;
+}
+
+.arttext {
+    overflow: auto;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+h2 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+footer {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 10pt;
+    font-style: oblique;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+}
+
+/* === Backgrounds === */
+
+header {
+    background-color: #000000;
+}
+
+main {
+    background-color: #CDCDCD;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #000000;
+}
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+}
+
+/* === Box Model === */
+
+
+
+#splash {
+    height: 400px;
+}
+
+header {
+    height: 150px;
+}
+
+footer {
+    margin: 0px;
+    padding: 50px;
+
+}
+
+#foodarticles {
+    padding-left: 25px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+body {
+    margin-top: 150px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+aside {
+    margin-left: 35px;
+}
+
+
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+nav {
+    margin-right: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.floatleft {
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+container: {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* === Layout === */
+
+.floatleft {
+    float: left;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === Add === */
+
+#add {
+    background-color: red;
+    color: black;
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 400px;
+}
