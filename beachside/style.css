@@ -58,7 +58,7 @@ body {
 
 .splash .innercontent {
     text-align: center;
-    color: #285470;
+    color: white;
 }
 
 .promotions {
@@ -181,3 +181,9 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+
+.innercontent h1 {
+    background-color: #8FC3EA;
+    padding: 15px;
+}
+
