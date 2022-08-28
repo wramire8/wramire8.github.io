@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #4C96D7;
+    border: 4px solid #4C96D7;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #d6edf6;
+    color: #4C96D7;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.home {
+    display: block;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
