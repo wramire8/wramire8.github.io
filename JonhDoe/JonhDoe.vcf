@@ -1,8 +1,9 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:John Doe
-ORG:Company Name
-TITLE:Software Engineer
-TEL:+123456789
-EMAIL:john.doe@example.com
+FN;CHARSET=UTF-8:John Doe
+N;CHARSET=UTF-8:Doe;John;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:william.ramirez@ifrsf.org
+ROLE;CHARSET=UTF-8:Communications Specialist
+ORG;CHARSET=UTF-8:Instituto Familiar de la Raza
+REV:2023-12-05T20:28:13.121Z
 END:VCARD
